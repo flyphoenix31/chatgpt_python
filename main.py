@@ -6,7 +6,7 @@ model_engine = "gpt-3.5-turbo"
 response = openai.ChatCompletion.create(
     model = 'gpt-3.5-turbo',
     messages=[
-        {"role": "system", "content": "You are a helpful  assistant."},
+        {"role": "system", "content": "You are a helpful assistant."},
         {"role": "user", "content": "Hello"},
         {"role": "assistant", "content": "Hello! How can I assist you today?"},
         {"role": "user", "content": "I'm new in using ChatGPT. I heard that it's very useful."},
